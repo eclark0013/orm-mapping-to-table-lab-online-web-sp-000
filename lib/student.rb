@@ -10,5 +10,12 @@ class Student
     @id = id
   end
 
+  def self.create_table
+    sql = <<-SQL
+      hi
+      SQL
+
+
+
 
 end
